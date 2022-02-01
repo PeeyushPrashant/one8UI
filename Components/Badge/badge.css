@@ -1,0 +1,41 @@
+.badge {
+  position: relative;
+  margin-right: 2rem;
+}
+
+/* Avatar Badge*/
+
+.badge > span {
+  border-radius: 50%;
+  height: 1.2rem;
+  left: 5rem;
+  position: absolute;
+  top: 4rem;
+  width: 1.2rem;
+}
+.online {
+  background-color: var(--online);
+}
+.offline {
+  background-color: var(--offline);
+}
+.dnd {
+  background-color: var(--dnd);
+}
+
+/* Icon Badge*/
+
+.badge .number {
+  border-radius: 50%;
+  background-color: var(--num-badge);
+  font-size: 1.3rem;
+  font-weight: 700;
+  left: 2.5rem;
+  padding: 0.3rem;
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+.icon-lg {
+  font-size: 3.5rem;
+}

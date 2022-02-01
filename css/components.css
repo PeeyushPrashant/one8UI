@@ -12,8 +12,15 @@ html {
 :root {
   --main-bg-color: #f5f7f9;
 
+  /* alert*/
   --pm-alert-color: #a2d2ff;
   --suc-alert-color: #76c893;
   --warn-alert-color: #ffe169;
   --dgr-alert-color: #ff8fab;
+
+  /*badges*/
+  --online: rgb(32, 184, 32);
+  --offline: rgb(187, 179, 179);
+  --dnd: rgb(233, 104, 104);
+  --num-badge: rgb(63, 187, 224);
 }
