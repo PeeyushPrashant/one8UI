@@ -1,0 +1,39 @@
+.avatar-container {
+  align-items: center;
+  background-color: var(--main-bg-color);
+  display: flex;
+  gap: 2rem;
+  height: 10rem;
+  justify-content: center;
+  margin: 5rem;
+  width: 50rem;
+}
+
+/* ROUND AVATAR*/
+.avatar {
+  border-radius: 50%;
+  height: 6rem;
+  object-fit: cover;
+  width: 6rem;
+}
+
+/* SIZES AVATAR*/
+
+.sm {
+  height: 3rem;
+  width: 3rem;
+}
+.md {
+  height: 4rem;
+  width: 4rem;
+}
+.lg {
+  height: 5rem;
+  width: 5rem;
+}
+
+/* SQUARE AVATAR*/
+
+.square {
+  border-radius: 10%;
+}

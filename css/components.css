@@ -1,0 +1,19 @@
+@import url("/Components/Alert/alert.css");
+@import url("/Components/Avatar/avatar.css");
+@import url("/Components/Badge/badge.css");
+@import url("/Components/Button/button.css");
+@import url("/Components/Card/card.css");
+@import url("/Components/Image/image.css");
+@import url("/Components/Input/input.css");
+
+html {
+  font-size: 62.5%;
+}
+:root {
+  --main-bg-color: #f5f7f9;
+
+  --pm-alert-color: #a2d2ff;
+  --suc-alert-color: #76c893;
+  --warn-alert-color: #ffe169;
+  --dgr-alert-color: #ff8fab;
+}
