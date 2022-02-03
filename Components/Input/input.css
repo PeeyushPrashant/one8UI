@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+}
+.input-container {
+  align-items: center;
+  background-color: var(--main-bg-color);
+  box-sizing: border-box;
+  gap: 2rem;
+  justify-content: center;
+  margin: 5rem;
+  padding: 1rem 0;
+  width: 55rem;
+}
+/* TextFeild*/
+
+.input-section > input {
+  width: 40rem;
+  height: 2.5rem;
+}
+.input-section > input:focus {
+  outline: none;
+}
+.wrong {
+  color: var(--warning);
+}
+.wrong input {
+  border: 0.1rem solid var(--warning);
+}
+
+/*Radio*/
+.choice {
+  cursor: pointer;
+}
+.disabled {
+  cursor: not-allowed;
+}

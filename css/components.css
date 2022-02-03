@@ -26,6 +26,7 @@
   --primary: #319795;
   --secondary: #319795b3;
   --disabled: #31979547;
+  --warning: red;
 
   --font-color: #ffffff;
   --shadow-color: #333333;
@@ -76,4 +77,21 @@ a {
 }
 .icon-sm {
   font-size: 1.5rem;
+}
+.fx-row {
+  display: flex;
+  flex-direction: row;
+}
+.fx-col {
+  display: flex;
+  flex-direction: column;
+}
+.font-sm {
+  font-size: 1.3rem;
+}
+.font-md {
+  font-size: 1.6rem;
+}
+.font-lg {
+  font-size: 2rem;
 }
