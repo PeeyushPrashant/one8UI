@@ -85,6 +85,9 @@ p {
 .horizontal-card {
   width: 45rem;
 }
+.horizontal-img {
+  border-radius: 1rem;
+}
 .horizontal-sec {
   display: flex;
   align-items: center;
@@ -92,9 +95,6 @@ p {
 
 .horizontal-sec > section:nth-child(1) {
   flex-shrink: 4;
-}
-.horizontal-sec > section:nth-child(2) {
-  width: 22rem;
 }
 
 /* Card Shadow*/
