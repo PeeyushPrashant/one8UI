@@ -5,10 +5,15 @@
 @import url("/Components/Card/card.css");
 @import url("/Components/Image/image.css");
 @import url("/Components/Input/input.css");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400&family=Ubuntu:wght@300;400&display=swap");
 
+* {
+  font-family: "Poppins", sans-serif;
+}
 html {
   font-size: 62.5%;
 }
+
 :root {
   --main-bg-color: #f5f7f9;
 
