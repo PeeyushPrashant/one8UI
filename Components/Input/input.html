@@ -9,31 +9,32 @@
   </head>
   <body>
     <!--Textfeild-->
-    <div class="input-container fx-col">
-      <section class="input-section fx-col">
-        <span class="font-sm">Username*</span> <input type="text" />
+    <div class="input-container flex-col">
+      <section class="input-section flex-col">
+        <span class="font-sm">Username*</span>
+        <input type="text" class="textfeild" />
       </section>
-      <section class="input-section wrong fx-col">
+      <section class="input-section wrong-input flex-col">
         <span class="font-sm">Password*</span>
-        <input type="text" />
+        <input type="text" class="textfeild" />
         <span class="font-sm">Wrong Password. Try again.</span>
       </section>
     </div>
 
     <!--Radio Button-->
-    <div class="input-container fx-row">
-      <section class="fx-row">
+    <div class="input-container flex-row">
+      <section class="flex-row">
         <input type="radio" name="abc" checked="checked" class="choice" /><span
           class="font-sm"
           >Checked</span
         >
       </section>
-      <section class="fx-row">
+      <section class="flex-row">
         <input type="radio" name="abc" class="choice" /><span class="font-sm"
           >Unchecked</span
         >
       </section>
-      <section class="fx-row">
+      <section class="flex-row">
         <input type="radio" name="abc" class="disabled" /><span class="font-sm"
           >Disabled</span
         >
@@ -41,8 +42,8 @@
     </div>
 
     <!--Checkbox-->
-    <div class="input-container fx-row">
-      <section class="fx-row">
+    <div class="input-container flex-row">
+      <section class="flex-row">
         <input
           type="checkbox"
           name="abc"
@@ -50,17 +51,29 @@
           class="choice"
         /><span class="font-sm">Checked</span>
       </section>
-      <section class="fx-row">
+      <section class="flex-row">
         <input type="checkbox" name="abc" class="choice" /><span class="font-sm"
           >Unchecked</span
         >
       </section>
-      <section class="fx-row">
+      <section class="flex-row">
         <input type="checkbox" name="abc" class="disabled" /><span
           class="font-sm"
           >Disabled</span
         >
       </section>
+    </div>
+
+    <!--textarea-->
+    <div class="input-container flex-row">
+      <textarea
+        name=""
+        id=""
+        cols="50"
+        rows="4"
+        class="textarea"
+        placeholder="Enter your address"
+      ></textarea>
     </div>
   </body>
 </html>

@@ -13,17 +13,15 @@ body {
 }
 /* TextFeild*/
 
-.input-section > input {
+.textfeild {
   width: 40rem;
   height: 2.5rem;
-}
-.input-section > input:focus {
   outline: none;
 }
-.wrong {
+.wrong-input {
   color: var(--warning);
 }
-.wrong input {
+.wrong-input .textfeild {
   border: 0.1rem solid var(--warning);
 }
 
@@ -33,4 +31,14 @@ body {
 }
 .disabled {
   cursor: not-allowed;
+}
+
+/*textarea*/
+.textarea {
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+.textarea::placeholder {
+  padding: 2.5rem 0;
+  color: var(--primary);
 }

@@ -78,11 +78,11 @@ a {
 .icon-sm {
   font-size: 1.5rem;
 }
-.fx-row {
+.flex-row {
   display: flex;
   flex-direction: row;
 }
-.fx-col {
+.flex-col {
   display: flex;
   flex-direction: column;
 }
