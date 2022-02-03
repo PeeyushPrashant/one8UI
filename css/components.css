@@ -7,13 +7,6 @@
 @import url("/Components/Input/input.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400&family=Ubuntu:wght@300;400&display=swap");
 
-* {
-  font-family: "Poppins", sans-serif;
-}
-html {
-  font-size: 62.5%;
-}
-
 :root {
   --main-bg-color: #f5f7f9;
 
@@ -29,12 +22,47 @@ html {
   --dnd: rgb(233, 104, 104);
   --num-badge: rgb(63, 187, 224);
 
+  /*button*/
   --primary: #319795;
   --secondary: #319795b3;
   --disabled: #31979547;
 
   --font-color: #ffffff;
   --shadow-color: #333333;
+
+  /*card*/
+  --card-bg: #fff;
+  --card-title-color: rgb(255, 80, 133);
+  --cross-icon-color: #6c757d;
+  --card-container-bg: rgb(235, 233, 233);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 1.9rem;
+}
+h4 {
+  font-size: 1.6rem;
+}
+p {
+  font-size: 1.4rem;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.none {
+  display: none;
 }
 a {
   text-decoration: none;
