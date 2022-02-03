@@ -30,6 +30,12 @@ html {
 
   --font-color: #ffffff;
   --shadow-color: #333333;
+
+  /*card*/
+  --card-bg: #fff;
+  --card-title-color: rgb(255, 80, 133);
+  --cross-icon-color: #6c757d;
+  --card-container-bg: rgb(235, 233, 233);
 }
 a {
   text-decoration: none;
