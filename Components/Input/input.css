@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+.input-container {
+  align-items: center;
+  background-color: var(--main-bg-color);
+  box-sizing: border-box;
+  gap: 2rem;
+  justify-content: center;
+  margin: 5rem;
+  padding: 1rem 0;
+  width: 55rem;
+}
+/* TextFeild*/
+
+.textfeild {
+  width: 40rem;
+  height: 2.5rem;
+  outline: none;
+}
+.wrong-input {
+  color: var(--warning);
+}
+.wrong-input .textfeild {
+  border: 0.1rem solid var(--warning);
+}
+
+/*Radio*/
+.choice {
+  cursor: pointer;
+}
+.disabled {
+  cursor: not-allowed;
+}
+
+/*textarea*/
+.textarea {
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+.textarea::placeholder {
+  padding: 2.5rem 0;
+  color: var(--primary);
+}
