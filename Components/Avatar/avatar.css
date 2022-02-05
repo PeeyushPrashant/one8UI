@@ -1,14 +1,3 @@
-.main-container {
-  align-items: center;
-  background-color: var(--main-bg-color);
-  display: flex;
-  gap: 2rem;
-  height: 10rem;
-  justify-content: center;
-  margin: 5rem;
-  width: 50rem;
-}
-
 /* ROUND AVATAR*/
 .avatar {
   border-radius: 50%;
