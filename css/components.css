@@ -5,6 +5,7 @@
 @import url("/Components/Card/card.css");
 @import url("/Components/Image/image.css");
 @import url("/Components/Input/input.css");
+@import url("/Components/Text-Utility/text.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400&family=Ubuntu:wght@300;400&display=swap");
 
 :root {
@@ -36,12 +37,18 @@
   --card-title-color: rgb(255, 80, 133);
   --cross-icon-color: #6c757d;
   --card-container-bg: rgb(235, 233, 233);
+
+  /*Text-Utility*/
+  --grey-color: rgb(133, 129, 129);
 }
 * {
   font-family: "Poppins", sans-serif;
 }
 html {
   font-size: 62.5%;
+}
+h1 {
+  font-size: 3.2rem;
 }
 h2 {
   font-size: 2.4rem;
@@ -51,6 +58,12 @@ h3 {
 }
 h4 {
   font-size: 1.6rem;
+}
+h5 {
+  font-size: 1.328rem;
+}
+h6 {
+  font-size: 1.2rem;
 }
 p {
   font-size: 1.4rem;
