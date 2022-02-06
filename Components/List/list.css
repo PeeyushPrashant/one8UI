@@ -1,0 +1,38 @@
+.list-container {
+  width: 25rem;
+  border-radius: 0.3rem;
+  background-color: rgb(250, 250, 250);
+  padding: 1rem;
+  margin: 2rem;
+}
+/*Normal List*/
+
+.list-title {
+  margin: 0 0 2rem 0;
+  padding-left: 1rem;
+}
+.list {
+  padding: 0 0 0 1rem;
+}
+.list-item {
+  list-style: none;
+  font-size: 1.4rem;
+  padding: 0.3rem 0;
+}
+.list-item:hover {
+  cursor: pointer;
+  color: var(--primary);
+}
+
+/*Stacked List*/
+
+.stacked-list {
+  max-width: 30rem;
+  border-radius: 0.3rem;
+  background-color: rgb(250, 250, 250);
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 0 0.2rem 2rem;
+}

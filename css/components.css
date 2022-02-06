@@ -6,6 +6,7 @@
 @import url("/Components/Image/image.css");
 @import url("/Components/Input/input.css");
 @import url("/Components/Text-Utility/text.css");
+@import url("/Components/List/list.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400&family=Ubuntu:wght@300;400&display=swap");
 
 :root {
