@@ -1,0 +1,32 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 38rem;
+  background: var(--card-bg);
+  box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 2rem;
+}
+.modal-heading {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Descriptive Modal*/
+.modal-body {
+  margin: 1rem 0;
+  gap: 1rem;
+}
+.modal-footer {
+  gap: 1rem;
+  margin: 1rem 0 0.5rem auto;
+}
+
+/*Input Modal*/
+
+.modal-input {
+  height: 3rem;
+  border: 0.2rem solid var(--grey-light);
+  border-radius: 0.5rem;
+}

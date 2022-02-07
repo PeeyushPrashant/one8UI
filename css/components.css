@@ -7,8 +7,12 @@
 @import url("/Components/Input/input.css");
 @import url("/Components/Text-Utility/text.css");
 @import url("/Components/List/list.css");
+@import url("/Components/Modal/modal.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400&family=Ubuntu:wght@300;400&display=swap");
 
+body {
+  background-color: var(--card-container-bg);
+}
 :root {
   --main-bg-color: #f5f7f9;
 
@@ -26,7 +30,7 @@
 
   /*button*/
   --primary: #319795;
-  --secondary: #319795b3;
+  --secondary: #319795c9;
   --disabled: #31979547;
   --warning: red;
 
@@ -41,6 +45,9 @@
 
   /*Text-Utility*/
   --grey-color: rgb(133, 129, 129);
+
+  /*Modal*/
+  --grey-light: rgb(209, 204, 204);
 }
 * {
   font-family: "Poppins", sans-serif;
@@ -59,6 +66,7 @@ h3 {
 }
 h4 {
   font-size: 1.6rem;
+  margin: 0;
 }
 h5 {
   font-size: 1.328rem;
