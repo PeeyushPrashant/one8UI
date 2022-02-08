@@ -23,9 +23,9 @@
   --num-badge: rgb(63, 187, 224);
 
   /*button*/
-  --primary: #319795;
-  --secondary: #319795b3;
-  --disabled: #31979547;
+  --primary: #007fff;
+  --secondary: #007fffd4;
+  --disabled: #007fff8a;
   --warning: red;
 
   --font-color: #ffffff;
