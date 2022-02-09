@@ -10,9 +10,9 @@
 @import url("/Components/Modal/modal.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400&family=Ubuntu:wght@300;400&display=swap");
 
-body {
+/* body {
   background-color: var(--card-container-bg);
-}
+} */
 :root {
   --main-bg-color: #f5f7f9;
 
@@ -30,7 +30,7 @@ body {
 
   /*button*/
   --primary: #007fff;
-  --secondary: #007fffbd;
+  --secondary: #0059b2;
   --disabled: #007fff75;
   --warning: red;
 
@@ -99,7 +99,7 @@ p {
 }
 a {
   text-decoration: none;
-  color: var(--font-color);
+  color: var(--shadow-color);
 }
 .icon-lg {
   font-size: 3.5rem;
