@@ -8,6 +8,7 @@
 @import url("/Components/Text-Utility/text.css");
 @import url("/Components/List/list.css");
 @import url("/Components/Modal/modal.css");
+@import url("/css/utility.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400&family=Ubuntu:wght@300;400&display=swap");
 
 /* body {
@@ -49,6 +50,7 @@
   /*Modal*/
   --grey-light: rgb(209, 204, 204);
 }
+
 * {
   font-family: "Poppins", sans-serif;
 }
