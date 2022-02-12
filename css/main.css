@@ -18,9 +18,7 @@
   line-height: 6rem;
   font-weight: 600;
 }
-.highlight-text {
-  color: var(--primary);
-}
+
 .subhead {
   margin-top: 1rem;
   font-size: 2rem;

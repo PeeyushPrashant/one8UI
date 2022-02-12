@@ -4,51 +4,170 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+    src="https://kit.fontawesome.com/b84d0d614d.js"
+    crossorigin="anonymous"
+  ></script>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
     <link rel="stylesheet" href="/css/components.css" />
-    <title>Text-Utility</title>
+    <title>one8Ui | Text-Utility</title>
   </head>
   <body>
-    <div class="main-container flex-col bg-color">
-      <!--Heading-->
-      <section class="flex-col">
-        <h1 class="heading">h1. one8 Heading</h1>
-        <h2 class="heading">h2. one8 Heading</h2>
-        <h3 class="heading">h3. one8 Heading</h3>
-        <h4 class="heading">h4. one8 Heading</h4>
-        <h5 class="heading">h5. one8 Heading</h5>
-        <h6 class="heading">h6. one8 Heading</h6>
-      </section>
-      <hr class="horizontal-line" />
+    <div class="container">
+      <!--Navigation-->
+      <nav class="navbar flex-row">
+        <a href="/index.html"
+          ><h2 class="left-nav">
+            one8<span class="highlight-text">Ui</span>
+          </h2></a
+        >
+        <section class="right-nav flex-row">
+          <a href=""><p class="document">Docs</p></a>
+          <a href="https://github.com/PeeyushPrashant" target="_blank"><i class="fab fa-github icon-sm"></i></a>
+          <a href="https://www.linkedin.com/in/prashant-peeyush-9369bb19a/" target="_blank"> <i class="fab fa-linkedin-in icon-sm"></i></a>
+          <a href="https://twitter.com/PrashantPeeyush" target="_blank"><i class="fab fa-twitter icon-sm"></i></a>
+        </section>
+      </nav>
 
-      <!--ALignment-->
+      <div class="doc-container flex-row">
+        <!--Aside-->
+        <aside class="sidebar">
+          <!--Get Started List Start-->
+          <div class="list-topic">Get Started</div>
+          <hr class="horizontal-line" />
+          <ul class="list-subtopic flex-col">
+            <li>
+              <a href="/Get Started/introduction.html" class="list-itm">Introduction</a>
+            </li>
+          </ul>
 
-      <section class="alignment">
-        <p class="left-align">Left Align</p>
-        <p class="center-align">Center Align</p>
-        <p class="right-align">Right Align</p>
-      </section>
-      <hr class="horizontal-line" />
+          <!--Component list start-->
+          <div class="list-topic">Components</div>
+          <hr class="horizontal-line" />
+          <ul class="list-subtopic flex-col">
+            <li>
+              <a href="/Components/Alert/alert.html" class="list-itm">Alert</a>
+            </li>
+            <li>
+              <a href="/Components/Avatar/avatar.html" class="list-itm"
+                >Avatar</a
+              >
+            </li>
+            <li>
+              <a href="/Components/Badge/badge.html" class="list-itm">Badge</a>
+            </li>
+            <li>
+              <a href="/Components/Button/button.html" class="list-itm"
+                >Button</a
+              >
+            </li>
+            <li>
+              <a href="/Components/Card/card.html" class="list-itm">Card</a>
+            </li>
+            <li>
+              <a href="/Components/Image/image.html" class="list-itm">Image</a>
+            </li>
+            <li>
+              <a href="/Components/Input/input.html" class="list-itm">Input</a>
+            </li>
+            <li>
+              <a href="/Components/List/list.html" class="list-itm">List</a>
+            </li>
+            <li>
+              <a href="/Components/Modal/modal.html" class="list-itm">Modal</a>
+            </li>
+            <li>
+              <a href="" class="list-itm"
+                >Text Utility</a
+              >
+            </li>
+          </ul>
+        </aside>
 
-      <!--Grey Text-->
+        <!--Doc Content-->
 
-      <section>
-        <small class="grey-color">small grey text</small>
-        <p class="grey-color">grey text</p>
-        <p class="grey-color"><strong>grey text</strong></p>
-        <h3 class="heading grey-color">grey text</h3>
-      </section>
-      <hr class="horizontal-line" />
+        <div class="doc-content flex-col">
+          <h1 class="content-title">Text-Utility</h1>
+          <div class="content-subtitle">
+            Documentation and examples for one8Ui typography, including global
+            settings, headings, body text, lists, and more.
+          </div>
+          <hr class="horizontal-line" />
+          <!--Heading-->
 
-      <!--Font Size-->
+          <h3 class="content-title">Headings</h3>
+          <div class="content-subtitle">
+            All HTML headings, &lt;h1&gt; through &lt;h6&gt;, are available.
+          </div>
+          <div class="example-div flex-col">
+            <section>
+              <h1 class="heading">h1. one8 Heading</h1>
+              <h2 class="heading">h2. one8 Heading</h2>
+              <h3 class="heading">h3. one8 Heading</h3>
+              <h4 class="heading">h4. one8 Heading</h4>
+              <h5 class="heading">h5. one8 Heading</h5>
+              <h6 class="heading">h6. one8 Heading</h6>
+            </section>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fheadings&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Center Text-->
 
-      <section>
-        <p class="fs-6">font-size 6</p>
-        <p class="fs-5">font-size 5</p>
-        <p class="fs-4">font-size 4</p>
-        <p class="fs-3">font-size 3</p>
-        <p class="fs-2">font-size 2</p>
-        <p class="fs-1">font-size 1</p>
-      </section3>
-    </div3
-  </body3
+          <h3 class="content-title">Center Text</h3>
+          <div class="content-subtitle">
+            The texts are aligned left, center and right with respect to its
+            parent container.
+          </div>
+          <div class="example-div flex-col">
+            <section class="alignment">
+              <p class="left-align">Left Align</p>
+              <p class="center-align">Center Align</p>
+              <p class="right-align">Right Align</p>
+            </section>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fcenter%2520text&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Grey Text-->
+
+          <h3 class="content-title">Grey Text</h3>
+          <div class="content-subtitle">The texts are <span class="highlight-text">grey</span> in color.</div>
+          <div class="example-div flex-col">
+            <section>
+              <small class="grey-color">small grey text</small>
+              <p class="grey-color">grey text</p>
+              <p class="grey-color"><strong>grey text</strong></p>
+              <h3 class="heading grey-color">grey text</h3>
+            </section>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fgrey%2520text&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Font sizes-->
+
+          <h3 class="content-title">Font Sizes</h3>
+          <div class="content-subtitle">The texts are of different font-sizes.</div>
+          <div class="example-div flex-col">
+            <section>
+              <p class="fs-6">font-size 6</p>
+              <p class="fs-5">font-size 5</p>
+              <p class="fs-4">font-size 4</p>
+              <p class="fs-3">font-size 3</p>
+              <p class="fs-2">font-size 2</p>
+              <p class="fs-1">font-size 1</p>
+            </section3>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Ffont%2520size&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

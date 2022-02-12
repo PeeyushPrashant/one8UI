@@ -1,0 +1,22 @@
+.sidebar {
+  flex-basis: 20rem;
+  margin: 1rem 0 0 1rem;
+}
+.list-topic {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-left: 0.8rem;
+}
+.list-subtopic {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.4rem;
+  gap: 1.2rem;
+  margin-left: 0.8rem;
+}
+.list-itm:hover {
+  color: var(--primary);
+}
+.list-itm:active {
+  color: var(--secondary);
+}

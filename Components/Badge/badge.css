@@ -30,8 +30,8 @@
   background-color: var(--num-badge);
   font-size: 1.3rem;
   font-weight: 700;
-  left: 2.5rem;
-  padding: 0.3rem;
+  left: 2.7rem;
+  padding: 0 0.3rem 0.5rem;
   position: absolute;
   top: 0;
   text-align: center;

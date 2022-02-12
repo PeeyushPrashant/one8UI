@@ -8,40 +8,173 @@
       src="https://kit.fontawesome.com/b84d0d614d.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
     <link rel="stylesheet" href="/css/components.css" />
-    <title>Button</title>
+    <title>one8Ui | Button</title>
   </head>
   <body>
-    <!--Normal Button-->
-    <div class="main-container">
-      <button class="primary button">Primary</button>
-      <button class="secondary button">Secondary</button>
-      <button class="disabled button">Disabled</button>
-    </div>
+    <div class="container">
+      <!--Navigation-->
+      <nav class="navbar flex-row">
+        <a href="/index.html"
+          ><h2 class="left-nav">
+            one8<span class="highlight-text">Ui</span>
+          </h2></a
+        >
+        <section class="right-nav flex-row">
+          <a href="https://github.com/PeeyushPrashant" target="_blank"
+            ><i class="fab fa-github icon-sm"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/prashant-peeyush-9369bb19a/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in icon-sm"></i
+          ></a>
+          <a href="https://twitter.com/PrashantPeeyush" target="_blank"
+            ><i class="fab fa-twitter icon-sm"></i
+          ></a>
+        </section>
+      </nav>
 
-    <!--Link Button-->
-    <div class="main-container">
-      <button class="link button"><a href="">LINK</a></button>
-    </div>
+      <div class="doc-container flex-row">
+        <!--Aside-->
+        <aside class="sidebar">
+          <!--Get Started List Start-->
+          <div class="list-topic">Get Started</div>
+          <hr class="horizontal-line" />
+          <ul class="list-subtopic flex-col">
+            <li>
+              <a href="/Get Started/introduction.html" class="list-itm"
+                >Introduction</a
+              >
+            </li>
+          </ul>
 
-    <!--Icon Button-->
-    <div class="main-container">
-      <button class="primary button">
-        <i class="fas fa-envelope"></i>Email
-      </button>
-      <button class="icon-button button">
-        Call Us<i class="fas fa-phone-alt"></i>
-      </button>
-    </div>
+          <!--Component list start-->
+          <div class="list-topic">Components</div>
+          <hr class="horizontal-line" />
+          <ul class="list-subtopic flex-col">
+            <li>
+              <a href="/Components/Alert/alert.html" class="list-itm">Alert</a>
+            </li>
+            <li>
+              <a href="/Components/Avatar/avatar.html" class="list-itm"
+                >Avatar</a
+              >
+            </li>
+            <li>
+              <a href="/Components/Badge/badge.html" class="list-itm">Badge</a>
+            </li>
+            <li>
+              <a href="" class="list-itm">Button</a>
+            </li>
+            <li>
+              <a href="/Components/Card/card.html" class="list-itm">Card</a>
+            </li>
+            <li>
+              <a href="/Components/Image/image.html" class="list-itm">Image</a>
+            </li>
+            <li>
+              <a href="/Components/Input/input.html" class="list-itm">Input</a>
+            </li>
+            <li>
+              <a href="/Components/List/list.html" class="list-itm">List</a>
+            </li>
+            <li>
+              <a href="/Components/Modal/modal.html" class="list-itm">Modal</a>
+            </li>
+            <li>
+              <a href="/Components/Text-Utility/text.html" class="list-itm"
+                >Text Utility</a
+              >
+            </li>
+          </ul>
+        </aside>
 
-    <!--Floating Action Button-->
-    <div class="main-container">
-      <button class="floating-action-button">
-        <i class="fas fa-plus icon-sm"></i>
-      </button>
-      <button class="floating-action-button">
-        <i class="fas fa-pen"></i>
-      </button>
+        <!--Doc Content-->
+
+        <div class="doc-content flex-col">
+          <h1 class="content-title">Buttons</h1>
+          <div class="content-subtitle">
+            Buttons are useful in performing various actions on a single click.
+            Different variants of buttons are present in one8Ui. Take a look
+          </div>
+          <hr class="horizontal-line" />
+          <!--Contained Button-->
+
+          <h3 class="content-title">Contained Button</h3>
+          <div class="content-subtitle">
+            Contained buttons are high-emphasis, distinguished by their use of
+            elevation and fill. They contain actions that are primary to your
+            app.
+          </div>
+          <div class="example-div flex-row">
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-secondary">Secondary</button>
+            <button class="btn btn-disabled">Disabled</button>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fcontained%2520buttons&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Link Button-->
+
+          <h3 class="content-title">Link Button</h3>
+          <div class="content-subtitle">
+            The link can also be wrapped in buttons by giving class name as
+            <span class="highlight-text">btn-link</span> to a tag.
+          </div>
+          <div class="example-div flex-row">
+            <button class="btn btn-link"><a href="">LINK</a></button>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Flink%2520button&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+
+          <!--Icon Button-->
+
+          <h3 class="content-title">Icon Button</h3>
+          <div class="content-subtitle">
+            The class <span class="highlight-text">btn-icon</span> needs to be
+            added along with other classes to create an icon button.
+          </div>
+          <div class="example-div flex-row">
+            <button class="btn btn-icon">
+              <i class="fas fa-envelope"></i>Email
+            </button>
+            <button class="btn btn-icon">
+              Call Us<i class="fas fa-phone-alt"></i>
+            </button>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Ficon%2520button&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--FLoating action button-->
+
+          <h3 class="content-title">Floating Action Button</h3>
+          <div class="content-subtitle">
+            A floating action button appears in front of all screen content,
+            typically as a circular shape with an icon in its center. The class
+            <span class="highlight-text">btn-float</span> needs to be added to
+            use it.
+          </div>
+          <div class="example-div flex-row">
+            <button class="btn-float">
+              <i class="fas fa-plus icon-sm"></i>
+            </button>
+            <button class="btn-float">
+              <i class="fas fa-pen"></i>
+            </button>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Ffloating%2520action%2520button&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

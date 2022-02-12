@@ -22,6 +22,9 @@
   gap: 1rem;
   margin: 1rem 0 0.5rem auto;
 }
+.modal-footer .btn {
+  width: 9rem;
+}
 
 /*Input Modal*/
 
@@ -29,4 +32,8 @@
   height: 3rem;
   border: 0.2rem solid var(--grey-light);
   border-radius: 0.5rem;
+}
+.modal-input:focus {
+  outline: none;
+  border-color: var(--secondary);
 }
