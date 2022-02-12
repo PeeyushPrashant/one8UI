@@ -8,182 +8,343 @@
       src="https://kit.fontawesome.com/b84d0d614d.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
     <link rel="stylesheet" href="/css/components.css" />
-    <title>Card Designs</title>
+    <title>one8Ui | Card</title>
   </head>
   <body>
-    <div class="card-container">
-      <!--Card with badge-->
-
-      <div class="card">
-        <div>
-          <section class="relative">
-            <span class="absolute card-badge">Insane</span>
-            <img src="/asset/image/apdhillon.jpg" alt="AP Dhillon" />
-          </section>
-          <section class="sec-2">
-            <h3>AP Dhillon</h3>
-            <p>by Prashant Peeyush</p>
-          </section>
-        </div>
-
-        <section class="sec-3">
-          AP Dhillon, is an Indian singer, rapper, songwriter and record
-          producer associated with Punjabi music
+    <div class="container">
+      <!--Navigation-->
+      <nav class="navbar flex-row">
+        <a href="/index.html"
+          ><h2 class="left-nav">
+            one8<span class="highlight-text">Ui</span>
+          </h2></a
+        >
+        <section class="right-nav flex-row">
+          <a href="https://github.com/PeeyushPrashant" target="_blank"
+            ><i class="fab fa-github icon-sm"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/prashant-peeyush-9369bb19a/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in icon-sm"></i
+          ></a>
+          <a href="https://twitter.com/PrashantPeeyush" target="_blank"
+            ><i class="fab fa-twitter icon-sm"></i
+          ></a>
         </section>
-        <footer class="sec-4">
-          <h4>READ</h4>
-          <h4>BOOKMARK</h4>
-          <i class="far fa-heart"></i>
-          <i class="fas fa-share-alt"></i>
-          <i class="fas fa-ellipsis-v"></i>
-        </footer>
-      </div>
+      </nav>
 
-      <!--Text Overlay Card-->
+      <div class="doc-container flex-row">
+        <!--Aside-->
+        <aside class="sidebar">
+          <!--Get Started List Start-->
+          <div class="list-topic">Get Started</div>
+          <hr class="horizontal-line" />
+          <ul class="list-subtopic flex-col">
+            <li>
+              <a href="/Get Started/introduction.html" class="list-itm"
+                >Introduction</a
+              >
+            </li>
+          </ul>
 
-      <div class="card">
-        <div class="relative">
-          <section>
-            <img src="/asset/image/apdhillon.jpg" alt="AP Dhillon" />
-          </section>
+          <!--Component list start-->
+          <div class="list-topic">Components</div>
+          <hr class="horizontal-line" />
+          <ul class="list-subtopic flex-col">
+            <li>
+              <a href="/Components/Alert/alert.html" class="list-itm">Alert</a>
+            </li>
+            <li>
+              <a href="/Components/Avatar/avatar.html" class="list-itm"
+                >Avatar</a
+              >
+            </li>
+            <li>
+              <a href="/Components/Badge/badge.html" class="list-itm">Badge</a>
+            </li>
+            <li>
+              <a href="/Components/Button/button.html" class="list-itm"
+                >Button</a
+              >
+            </li>
+            <li>
+              <a href="" class="list-itm">Card</a>
+            </li>
+            <li>
+              <a href="/Components/Image/image.html" class="list-itm">Image</a>
+            </li>
+            <li>
+              <a href="/Components/Input/input.html" class="list-itm">Input</a>
+            </li>
+            <li>
+              <a href="/Components/List/list.html" class="list-itm">List</a>
+            </li>
+            <li>
+              <a href="/Components/Modal/modal.html" class="list-itm">Modal</a>
+            </li>
+            <li>
+              <a href="/Components/Text-Utility/text.html" class="list-itm"
+                >Text Utility</a
+              >
+            </li>
+          </ul>
+        </aside>
 
-          <section class="sec-2 absolute">
-            <h3>AP Dhillon</h3>
-            <p>by Prashant Peeyush</p>
-          </section>
+        <!--Doc Content-->
+
+        <div class="doc-content flex-col">
+          <h1 class="content-title">Cards</h1>
+          <div class="content-subtitle">
+            Cards support a wide variety of content, including images, text,
+            list groups, links, and more. Below are examples of what’s
+            supported.
+          </div>
+          <hr class="horizontal-line" />
+          <!--Badge Card-->
+
+          <h3 class="content-title">Card with badge</h3>
+          <div class="content-subtitle">
+            This card has a badge on its top right corner. For inserting the
+            badge , <span class="highlight-text">card-badge</span> class is
+            used.
+          </div>
+          <div class="example-div flex-row">
+            <div class="card">
+              <div>
+                <section class="relative">
+                  <span class="absolute card-badge">Insane</span>
+                  <img src="/asset/image/apdhillon.jpg" alt="AP Dhillon" />
+                </section>
+                <section class="sec-2">
+                  <h3>AP Dhillon</h3>
+                  <p>by Prashant Peeyush</p>
+                </section>
+              </div>
+
+              <section class="sec-3">
+                AP Dhillon, is an Indian singer, rapper, songwriter and record
+                producer associated with Punjabi music
+              </section>
+              <footer class="sec-4">
+                <h4>READ</h4>
+                <h4>BOOKMARK</h4>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-ellipsis-v"></i>
+              </footer>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fbadge%2520card&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+
+          <!--Card with dismiss-->
+
+          <h3 class="content-title">Card with cross badge</h3>
+          <div class="content-subtitle">
+            This card has a cross badge on its top right corner. For inserting
+            the badge , <span class="highlight-text">cross-badge</span> class is
+            used.
+          </div>
+          <div class="example-div flex-row">
+            <div class="card">
+              <div class="relative">
+                <span class="absolute cross-badge">X</span>
+                <section>
+                  <img src="/asset/image/apdhillon.jpg" alt="AP Dhillon" />
+                </section>
+                <section class="sec-2">
+                  <h3>AP Dhillon</h3>
+                  <p>by Prashant Peeyush</p>
+                </section>
+              </div>
+
+              <section class="sec-3">
+                AP Dhillon, is an Indian singer, rapper, songwriter and record
+                producer associated with Punjabi music
+              </section>
+              <footer class="sec-4">
+                <h4>READ</h4>
+                <h4>BOOKMARK</h4>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-ellipsis-v"></i>
+              </footer>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fcross%2520badge%2520card&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+
+          <!--Card with text overlay-->
+
+          <h3 class="content-title">Card with text overlay</h3>
+          <div class="content-subtitle">
+            This card has a text over image. You can achieve this by positioning
+            text as absolute with respect to image container.
+          </div>
+          <div class="example-div flex-row">
+            <div class="card">
+              <div class="relative">
+                <section>
+                  <img src="/asset/image/apdhillon.jpg" alt="AP Dhillon" />
+                </section>
+
+                <section class="sec-2 absolute">
+                  <h3>AP Dhillon</h3>
+                  <p>by Prashant Peeyush</p>
+                </section>
+              </div>
+
+              <section class="sec-3">
+                AP Dhillon, is an Indian singer, rapper, songwriter and record
+                producer associated with Punjabi music
+              </section>
+              <footer class="sec-4">
+                <h4>READ</h4>
+                <h4>BOOKMARK</h4>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-ellipsis-v"></i>
+              </footer>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Ftext%2520overlay%2520card&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Text only card-->
+
+          <h3 class="content-title">Text only card</h3>
+          <div class="content-subtitle">
+            This card has only text. It can be achieved by setting
+            <span class="highlight-text">display:none</span>
+            to other elemenys of the card.
+          </div>
+          <div class="example-div flex-row">
+            <div class="card">
+              <div>
+                <section>
+                  <img
+                    src="/asset/image/apdhillon.jpg"
+                    alt="AP Dhillon"
+                    class="none"
+                  />
+                </section>
+                <section class="sec-2">
+                  <h3>AP Dhillon</h3>
+                  <p>by Prashant Peeyush</p>
+                </section>
+              </div>
+
+              <section class="sec-3">
+                AP Dhillon, is an Indian singer, rapper, songwriter and record
+                producer associated with Punjabi music.Five of his singles have
+                peaked on the Official Charts
+              </section>
+              <footer class="sec-4 none">
+                <h4>READ</h4>
+                <h4>BOOKMARK</h4>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-ellipsis-v"></i>
+              </footer>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Ftext%2520only%2520card&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Horizontal Card-->
+
+          <h3 class="content-title">Horizontal card</h3>
+          <div class="content-subtitle">
+            This is a horizontal card. You can wrap the image & text in a
+            container and set
+            <span class="highlight-text">flex-direction:row.</span>
+          </div>
+          <div class="example-div flex-row">
+            <div class="card horizontal-card">
+              <div class="horizontal-sec">
+                <section>
+                  <img
+                    src="/asset/image/apdhillon.jpg"
+                    alt="AP Dhillon"
+                    class="horizontal-img"
+                  />
+                </section>
+                <section class="sec-2">
+                  <h3>AP Dhillon</h3>
+                  <p>by Prashant Peeyush</p>
+                </section>
+              </div>
+
+              <section class="sec-3 none">
+                AP Dhillon, is an Indian singer, rapper, songwriter and record
+                producer associated with Punjabi music
+              </section>
+              <footer class="sec-4">
+                <h4>READ</h4>
+                <h4>BOOKMARK</h4>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-ellipsis-v"></i>
+              </footer>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fhorizontal%2520card&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Card shadow-->
+
+          <h3 class="content-title">Card with shadow</h3>
+          <div class="content-subtitle">
+            This is a card with shadow. You can use this by applying
+            <span class="highlight-text">box-shadow</span>
+            property to the card.
+          </div>
+          <div class="example-div flex-row">
+            <div class="card card-shadow">
+              <div>
+                <section>
+                  <img
+                    src="/asset/image/apdhillon.jpg"
+                    alt="AP Dhillon"
+                    class="none"
+                  />
+                </section>
+                <section class="sec-2">
+                  <h3>AP Dhillon</h3>
+                  <p>by Prashant Peeyush</p>
+                </section>
+              </div>
+
+              <section class="sec-3">
+                AP Dhillon, is an Indian singer, rapper, songwriter and record
+                producer associated with Punjabi music.Five of his singles have
+                peaked on the Official Charts
+              </section>
+              <footer class="sec-4 none">
+                <h4>READ</h4>
+                <h4>BOOKMARK</h4>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+                <i class="fas fa-ellipsis-v"></i>
+              </footer>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fcard%2520shadow&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
         </div>
-
-        <section class="sec-3">
-          AP Dhillon, is an Indian singer, rapper, songwriter and record
-          producer associated with Punjabi music
-        </section>
-        <footer class="sec-4">
-          <h4>READ</h4>
-          <h4>BOOKMARK</h4>
-          <i class="far fa-heart"></i>
-          <i class="fas fa-share-alt"></i>
-          <i class="fas fa-ellipsis-v"></i>
-        </footer>
-      </div>
-
-      <!--cross badge card-->
-
-      <div class="card">
-        <div class="relative">
-          <span class="absolute cross-badge">X</span>
-          <section>
-            <img src="/asset/image/apdhillon.jpg" alt="AP Dhillon" />
-          </section>
-          <section class="sec-2">
-            <h3>AP Dhillon</h3>
-            <p>by Prashant Peeyush</p>
-          </section>
-        </div>
-
-        <section class="sec-3">
-          AP Dhillon, is an Indian singer, rapper, songwriter and record
-          producer associated with Punjabi music
-        </section>
-        <footer class="sec-4">
-          <h4>READ</h4>
-          <h4>BOOKMARK</h4>
-          <i class="far fa-heart"></i>
-          <i class="fas fa-share-alt"></i>
-          <i class="fas fa-ellipsis-v"></i>
-        </footer>
-      </div>
-
-      <!--Text Only Card-->
-
-      <div class="card">
-        <div>
-          <section>
-            <img
-              src="/asset/image/apdhillon.jpg"
-              alt="AP Dhillon"
-              class="none"
-            />
-          </section>
-          <section class="sec-2">
-            <h3>AP Dhillon</h3>
-            <p>by Prashant Peeyush</p>
-          </section>
-        </div>
-
-        <section class="sec-3">
-          AP Dhillon, is an Indian singer, rapper, songwriter and record
-          producer associated with Punjabi music.Five of his singles have peaked
-          on the Official Charts
-        </section>
-        <footer class="sec-4 none">
-          <h4>READ</h4>
-          <h4>BOOKMARK</h4>
-          <i class="far fa-heart"></i>
-          <i class="fas fa-share-alt"></i>
-          <i class="fas fa-ellipsis-v"></i>
-        </footer>
-      </div>
-
-      <!--Horizontal Card-->
-
-      <div class="card horizontal-card">
-        <div class="horizontal-sec">
-          <section>
-            <img
-              src="/asset/image/apdhillon.jpg"
-              alt="AP Dhillon"
-              class="horizontal-img"
-            />
-          </section>
-          <section class="sec-2">
-            <h3>AP Dhillon</h3>
-            <p>by Prashant Peeyush</p>
-          </section>
-        </div>
-
-        <section class="sec-3 none">
-          AP Dhillon, is an Indian singer, rapper, songwriter and record
-          producer associated with Punjabi music
-        </section>
-        <footer class="sec-4">
-          <h4>READ</h4>
-          <h4>BOOKMARK</h4>
-          <i class="far fa-heart"></i>
-          <i class="fas fa-share-alt"></i>
-          <i class="fas fa-ellipsis-v"></i>
-        </footer>
-      </div>
-
-      <!--Card-Shadow-->
-
-      <div class="card card-shadow">
-        <div>
-          <section>
-            <img
-              src="/asset/image/apdhillon.jpg"
-              alt="AP Dhillon"
-              class="none"
-            />
-          </section>
-          <section class="sec-2">
-            <h3>AP Dhillon</h3>
-            <p>by Prashant Peeyush</p>
-          </section>
-        </div>
-
-        <section class="sec-3">
-          AP Dhillon, is an Indian singer, rapper, songwriter and record
-          producer associated with Punjabi music.Five of his singles have peaked
-          on the Official Charts
-        </section>
-        <footer class="sec-4 none">
-          <h4>READ</h4>
-          <h4>BOOKMARK</h4>
-          <i class="far fa-heart"></i>
-          <i class="fas fa-share-alt"></i>
-          <i class="fas fa-ellipsis-v"></i>
-        </footer>
       </div>
     </div>
   </body>

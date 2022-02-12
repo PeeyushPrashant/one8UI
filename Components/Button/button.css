@@ -1,4 +1,4 @@
-.button {
+.btn {
   align-items: center;
   border-radius: 0.6rem;
   border: none;
@@ -13,25 +13,26 @@
 }
 
 /* Normal Button*/
-.primary {
+.btn-primary {
   background-color: var(--primary);
 }
-.secondary {
+.btn-secondary {
   background-color: var(--secondary);
 }
-.main-container .disabled {
+.btn-disabled {
   background-color: var(--disabled);
   cursor: not-allowed;
 }
 
 /*Link button*/
-.link {
+.btn-link {
   background-color: #0d6efdc7;
+  color: whitesmoke;
 }
 
 /*Icon Button*/
 
-.main-container .icon-button {
+.btn-icon {
   background-color: var(--font-color);
   border: 1px solid var(--primary);
   color: var(--primary);
@@ -39,7 +40,7 @@
 
 /*FLoating Action Button*/
 
-.main-container .floating-action-button {
+.btn-float {
   align-items: center;
   background-color: var(--primary);
   border-radius: 50%;

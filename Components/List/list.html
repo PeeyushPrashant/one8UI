@@ -8,45 +8,163 @@
       src="https://kit.fontawesome.com/b84d0d614d.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
     <link rel="stylesheet" href="/css/components.css" />
-    <title>List</title>
+    <title>one8Ui | List</title>
   </head>
   <body>
-    <!--Normal List-->
-    <div class="list-container">
-      <h4 class="list-title">Categories</h4>
-      <hr class="horizontal-line" />
-      <ul class="list">
-        <li class="list-item">Home</li>
-        <li class="list-item">Laptops</li>
-        <li class="list-item">Smartphones</li>
-        <li class="list-item">Headphones</li>
-        <li class="list-item">Watches</li>
-      </ul>
-    </div>
+    <div class="container">
+      <!--Navigation-->
+      <nav class="navbar flex-row">
+        <a href="/index.html"
+          ><h2 class="left-nav">
+            one8<span class="highlight-text">Ui</span>
+          </h2></a
+        >
+        <section class="right-nav flex-row">
+          <a href=""><p class="document">Docs</p></a>
+          <a href="https://github.com/PeeyushPrashant" target="_blank"
+            ><i class="fab fa-github icon-sm"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/prashant-peeyush-9369bb19a/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in icon-sm"></i
+          ></a>
+          <a href="https://twitter.com/PrashantPeeyush" target="_blank"
+            ><i class="fab fa-twitter icon-sm"></i
+          ></a>
+        </section>
+      </nav>
 
-    <!--Stacked List-->
+      <div class="doc-container flex-row">
+        <!--Aside-->
+        <aside class="sidebar">
+          <!--Get Started List Start-->
+          <div class="list-topic">Get Started</div>
+          <hr class="horizontal-line" />
+          <ul class="list-subtopic flex-col">
+            <li>
+              <a href="/Get Started/introduction.html" class="list-itm"
+                >Introduction</a
+              >
+            </li>
+          </ul>
 
-    <div class="stacked-list flex-row">
-      <i class="fas fa-pizza-slice icon-md"></i>
-      <p>
-        Slow and steady wins nothing. That's why we delivered your order in 15
-        mins.
-      </p>
-    </div>
-    <div class="stacked-list flex-row">
-      <i class="fas fa-tshirt icon-md"></i>
-      <p>
-        Your order for Roadster black t-shirt has been shipped. You will receive
-        it by Wednesday.
-      </p>
-    </div>
-    <div class="stacked-list flex-row">
-      <i class="fas fa-tshirt icon-md"></i>
-      <p>
-        Your order for Roadster black t-shirt has been shipped. You will receive
-        it by Wednesday.
-      </p>
+          <!--Component list start-->
+          <div class="list-topic">Components</div>
+          <hr class="horizontal-line" />
+          <ul class="list-subtopic flex-col">
+            <li>
+              <a href="/Components/Alert/alert.html" class="list-itm">Alert</a>
+            </li>
+            <li>
+              <a href="/Components/Avatar/avatar.html" class="list-itm"
+                >Avatar</a
+              >
+            </li>
+            <li>
+              <a href="/Components/Badge/badge.html" class="list-itm">Badge</a>
+            </li>
+            <li>
+              <a href="/Components/Button/button.html" class="list-itm"
+                >Button</a
+              >
+            </li>
+            <li>
+              <a href="/Components/Card/card.html" class="list-itm">Card</a>
+            </li>
+            <li>
+              <a href="/Components/Image/image.html" class="list-itm">Image</a>
+            </li>
+            <li>
+              <a href="/Components/Input/input.html" class="list-itm">Input</a>
+            </li>
+            <li>
+              <a href="" class="list-itm">List</a>
+            </li>
+            <li>
+              <a href="/Components/Modal/modal.html" class="list-itm">Modal</a>
+            </li>
+            <li>
+              <a href="/Components/Text-Utility/text.html" class="list-itm"
+                >Text Utility</a
+              >
+            </li>
+          </ul>
+        </aside>
+
+        <!--Doc Content-->
+
+        <div class="doc-content flex-col">
+          <h1 class="content-title">Lists</h1>
+          <div class="content-subtitle">
+            Lists are continuous, vertical indexes of text or images. They are
+            composed of items containing primary and supplemental actions, which
+            are represented by icons and text.
+          </div>
+          <hr class="horizontal-line" />
+          <!--Normal List-->
+
+          <h3 class="content-title">Normal list</h3>
+          <div class="content-subtitle">
+            The most basic list group is an unordered list with list items and
+            the proper classes. Build upon it with the options that follow, or
+            with your own CSS as needed.
+          </div>
+          <div class="example-div flex-row">
+            <div class="list-container">
+              <h4 class="list-title">Categories</h4>
+              <hr class="horizontal-line" />
+              <ul class="list">
+                <li class="list-item">Home</li>
+                <li class="list-item">Laptops</li>
+                <li class="list-item">Smartphones</li>
+                <li class="list-item">Headphones</li>
+                <li class="list-item">Watches</li>
+              </ul>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fnormal%2520list&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Stacked List-->
+
+          <h3 class="content-title">Stacked list</h3>
+          <div class="content-subtitle">
+            This is a stacked list like the one we see in our notification page.
+          </div>
+          <div class="example-div flex-col">
+            <div class="stacked-list flex-row">
+              <i class="fas fa-pizza-slice icon-md"></i>
+              <p>
+                Slow and steady wins nothing. That's why we delivered your order
+                in 15 mins.
+              </p>
+            </div>
+            <div class="stacked-list flex-row">
+              <i class="fas fa-tshirt icon-md"></i>
+              <p>
+                Your order for Roadster black t-shirt has been shipped. You will
+                receive it by Wednesday.
+              </p>
+            </div>
+            <div class="stacked-list flex-row">
+              <i class="fas fa-tshirt icon-md"></i>
+              <p>
+                Your order for Roadster black t-shirt has been delayed. You will
+                receive it by Friday.
+              </p>
+            </div>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fstacked%2520list&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -4,76 +4,216 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
     <link rel="stylesheet" href="/css/components.css" />
-    <title>Input</title>
+    <title>one8Ui | Input</title>
   </head>
   <body>
-    <!--Textfeild-->
-    <div class="input-container flex-col">
-      <section class="input-section flex-col">
-        <span class="font-sm">Username*</span>
-        <input type="text" class="textfeild" />
-      </section>
-      <section class="input-section wrong-input flex-col">
-        <span class="font-sm">Password*</span>
-        <input type="text" class="textfeild" />
-        <span class="font-sm">Wrong Password. Try again.</span>
-      </section>
-    </div>
+    <div class="container">
+      <!--Navigation-->
+      <nav class="navbar flex-row">
+        <a href="/index.html"
+          ><h2 class="left-nav">
+            one8<span class="highlight-text">Ui</span>
+          </h2></a
+        >
+        <section class="right-nav flex-row">
+          <a href=""><p class="document">Docs</p></a>
+          <a href="https://github.com/PeeyushPrashant" target="_blank"
+            ><i class="fab fa-github icon-sm"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/prashant-peeyush-9369bb19a/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in icon-sm"></i
+          ></a>
+          <a href="https://twitter.com/PrashantPeeyush" target="_blank"
+            ><i class="fab fa-twitter icon-sm"></i
+          ></a>
+        </section>
+      </nav>
 
-    <!--Radio Button-->
-    <div class="input-container flex-row">
-      <section class="flex-row">
-        <input type="radio" name="abc" checked="checked" class="choice" /><span
-          class="font-sm"
-          >Checked</span
-        >
-      </section>
-      <section class="flex-row">
-        <input type="radio" name="abc" class="choice" /><span class="font-sm"
-          >Unchecked</span
-        >
-      </section>
-      <section class="flex-row">
-        <input type="radio" name="abc" class="disabled" /><span class="font-sm"
-          >Disabled</span
-        >
-      </section>
-    </div>
+      <div class="doc-container flex-row">
+        <!--Aside-->
+        <aside class="sidebar">
+          <!--Get Started List Start-->
+          <div class="list-topic">Get Started</div>
+          <hr class="horizontal-line" />
+          <ul class="list-subtopic flex-col">
+            <li>
+              <a href="/Get Started/introduction.html" class="list-itm"
+                >Introduction</a
+              >
+            </li>
+          </ul>
 
-    <!--Checkbox-->
-    <div class="input-container flex-row">
-      <section class="flex-row">
-        <input
-          type="checkbox"
-          name="abc"
-          checked="checked"
-          class="choice"
-        /><span class="font-sm">Checked</span>
-      </section>
-      <section class="flex-row">
-        <input type="checkbox" name="abc" class="choice" /><span class="font-sm"
-          >Unchecked</span
-        >
-      </section>
-      <section class="flex-row">
-        <input type="checkbox" name="abc" class="disabled" /><span
-          class="font-sm"
-          >Disabled</span
-        >
-      </section>
-    </div>
+          <!--Component list start-->
+          <div class="list-topic">Components</div>
+          <hr class="horizontal-line" />
+          <ul class="list-subtopic flex-col">
+            <li>
+              <a href="/Components/Alert/alert.html" class="list-itm">Alert</a>
+            </li>
+            <li>
+              <a href="/Components/Avatar/avatar.html" class="list-itm"
+                >Avatar</a
+              >
+            </li>
+            <li>
+              <a href="/Components/Badge/badge.html" class="list-itm">Badge</a>
+            </li>
+            <li>
+              <a href="/Components/Button/button.html" class="list-itm"
+                >Button</a
+              >
+            </li>
+            <li>
+              <a href="/Components/Card/card.html" class="list-itm">Card</a>
+            </li>
+            <li>
+              <a href="/Components/Image/image.html" class="list-itm">Image</a>
+            </li>
+            <li>
+              <a href="" class="list-itm">Input</a>
+            </li>
+            <li>
+              <a href="/Components/List/list.html" class="list-itm">List</a>
+            </li>
+            <li>
+              <a href="/Components/Modal/modal.html" class="list-itm">Modal</a>
+            </li>
+            <li>
+              <a href="/Components/Text-Utility/text.html" class="list-itm"
+                >Text Utility</a
+              >
+            </li>
+          </ul>
+        </aside>
 
-    <!--textarea-->
-    <div class="input-container flex-row">
-      <textarea
-        name=""
-        id=""
-        cols="50"
-        rows="4"
-        class="textarea"
-        placeholder="Enter your address"
-      ></textarea>
+        <!--Doc Content-->
+
+        <div class="doc-content flex-col">
+          <h1 class="content-title">Inputs</h1>
+          <div class="content-subtitle">
+            Inputs are necessary for user interaction with the website. Inputs
+            are used to take information from the user, and then save the data
+            to the server, accordingly.
+          </div>
+          <hr class="horizontal-line" />
+          <!--Label Inputs-->
+
+          <h3 class="content-title">Label Inputs</h3>
+          <div class="content-subtitle">
+            Label Input has a label present at the top of the input field. They
+            can be customized to show error error-message, and change color
+            accordingly.
+          </div>
+          <div class="example-div flex-col">
+            <section class="input-section flex-col">
+              <span class="font-sm">Username*</span>
+              <input type="text" class="textfeild" />
+            </section>
+            <section class="input-section wrong-input flex-col">
+              <span class="font-sm">Password*</span>
+              <input type="text" class="textfeild" />
+              <span class="font-sm">Wrong Password. Try again.</span>
+            </section>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Flabel%2520input&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Radio-->
+
+          <h3 class="content-title">Radio button</h3>
+          <div class="content-subtitle">
+            Radio buttons allow the user to select one option from a set.
+          </div>
+          <div class="example-div flex-row">
+            <section class="flex-row">
+              <input
+                type="radio"
+                name="abc"
+                checked="checked"
+                class="choice"
+              /><span class="font-sm">Checked</span>
+            </section>
+            <section class="flex-row">
+              <input type="radio" name="abc" class="choice" /><span
+                class="font-sm"
+                >Unchecked</span
+              >
+            </section>
+            <section class="flex-row">
+              <input type="radio" name="abc" class="disabled" /><span
+                class="font-sm"
+                >Disabled</span
+              >
+            </section>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fradio%2520input&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Checkbox-->
+
+          <h3 class="content-title">Checkbox</h3>
+          <div class="content-subtitle">
+            Checkboxes allow the user to select one or more items from a set.
+            Checkboxes can be used to turn an option on or off. If you have
+            multiple options appearing in a list, you can preserve space by
+            using checkboxes instead of on/off switches. If you have a single
+            option, avoid using a checkbox and use an on/off switch instead.
+          </div>
+          <div class="example-div flex-row">
+            <section class="flex-row">
+              <input
+                type="checkbox"
+                name="abc"
+                checked="checked"
+                class="choice"
+              /><span class="font-sm">Checked</span>
+            </section>
+            <section class="flex-row">
+              <input type="checkbox" name="abc" class="choice" /><span
+                class="font-sm"
+                >Unchecked</span
+              >
+            </section>
+            <section class="flex-row">
+              <input type="checkbox" name="abc" class="disabled" /><span
+                class="font-sm"
+                >Disabled</span
+              >
+            </section>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fcheckbox&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+          <hr class="horizontal-line" />
+          <!--Text Area-->
+
+          <h3 class="content-title">Text Area</h3>
+          <div class="content-subtitle">
+            The &lt;textarea&gt; tag defines a multi-line text input control.
+          </div>
+          <div class="example-div flex-row">
+            <textarea
+              name=""
+              id=""
+              cols="50"
+              rows="4"
+              class="textarea"
+              placeholder="Enter your address"
+            ></textarea>
+          </div>
+          <div class="code-snippet">
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Ftextarea%2520input&style=vs2015&showBorder=on&showCopy=on"></script>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

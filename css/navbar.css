@@ -24,6 +24,9 @@
   align-items: center;
   gap: 2rem;
 }
+.highlight-text {
+  color: var(--primary);
+}
 
 @media screen and (max-width: 350px) {
   .document {
