@@ -29,6 +29,7 @@
 /*Input Modal*/
 
 .modal-input {
+  width: 38rem;
   height: 3rem;
   border: 0.2rem solid var(--grey-light);
   border-radius: 0.5rem;
@@ -36,4 +37,10 @@
 .modal-input:focus {
   outline: none;
   border-color: var(--secondary);
+}
+
+@media screen and (max-width: 500px) {
+  .modal-input {
+    width: auto;
+  }
 }
