@@ -6,7 +6,7 @@
   
   
 # [one8Ui](https://one8ui.netlify.app/)
-  one8Ui is a CSS library which helps in building customizable & user-friendly websites. It has 10 components, and you are just one click away from using this classy     library. 
+  one8Ui is a CSS library which helps in building customizable & user-friendly websites. It has 10 components, and you are just one click away from using this classy     responsive library. 
 </div>
 
 ## Technology Used -
