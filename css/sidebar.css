@@ -1,6 +1,9 @@
 .sidebar {
   flex-basis: 20rem;
   margin: 1rem 0 0 1rem;
+  position: sticky;
+  top: 17rem;
+  height: 100%;
 }
 .list-topic {
   font-size: 1.7rem;
@@ -14,9 +17,15 @@
   gap: 1.2rem;
   margin-left: 0.8rem;
 }
-.list-itm:hover {
+.list-itm:hover:not(.active) {
+  color: var(--secondary);
+}
+.active {
   color: var(--primary);
 }
-.list-itm:active {
-  color: var(--secondary);
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
 }

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b84d0d614d.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/sidebar.css" />
     <link rel="stylesheet" href="/css/components.css" />
@@ -13,11 +17,87 @@
     <div class="container">
       <!--Navigation-->
       <nav class="navbar flex-row">
-        <a href="/index.html"
-          ><h2 class="left-nav">
-            one8<span class="highlight-text">Ui</span>
-          </h2></a
-        >
+        <div class="lib-title">
+          <a href="/index.html"
+            ><h2 class="left-nav">
+              one8<span class="highlight-text">Ui</span>
+            </h2></a
+          >
+        </div>
+        <div class="drawar-container">
+          <div class="left-nav" id="data-drawar">
+            <i class="fas fa-bars icon-md"></i>
+          </div>
+
+          <div class="backdrop"></div>
+          <div class="drawar">
+            <a href="/index.html"
+              ><h2 class="left-nav">
+                one8<span class="highlight-text">Ui</span>
+              </h2></a
+            >
+            <!--Get Started List Start-->
+            <div class="list-topic">Get Started</div>
+            <hr class="horizontal-line" />
+            <ul class="list-subtopic flex-col">
+              <li>
+                <a href="" class="list-itm">Introduction</a>
+              </li>
+            </ul>
+            <!--Component list start-->
+            <div class="list-topic">Components</div>
+            <hr class="horizontal-line" />
+            <ul class="list-subtopic flex-col">
+              <li>
+                <a href="/Components/Alert/alert.html" class="list-itm"
+                  >Alert</a
+                >
+              </li>
+              <li>
+                <a href="/Components/Avatar/avatar.html" class="list-itm"
+                  >Avatar</a
+                >
+              </li>
+              <li>
+                <a href="/Components/Badge/badge.html" class="list-itm"
+                  >Badge</a
+                >
+              </li>
+              <li>
+                <a href="/Components/Button/button.html" class="list-itm"
+                  >Button</a
+                >
+              </li>
+              <li>
+                <a href="/Components/Card/card.html" class="list-itm">Card</a>
+              </li>
+              <li>
+                <a href="/Components/Image/image.html" class="list-itm"
+                  >Image</a
+                >
+              </li>
+              <li>
+                <a href="/Components/Input/input.html" class="list-itm active"
+                  >Input</a
+                >
+              </li>
+              <li>
+                <a href="/Components/List/list.html" class="list-itm">List</a>
+              </li>
+              <li>
+                <a href="/Components/Modal/modal.html" class="list-itm"
+                  >Modal</a
+                >
+              </li>
+              <li>
+                <a href="/Components/Text-Utility/text.html" class="list-itm"
+                  >Text Utility</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <section class="right-nav flex-row">
           <a href=""><p class="document">Docs</p></a>
           <a href="https://github.com/PeeyushPrashant" target="_blank"
@@ -76,7 +156,7 @@
               <a href="/Components/Image/image.html" class="list-itm">Image</a>
             </li>
             <li>
-              <a href="" class="list-itm">Input</a>
+              <a href="" class="list-itm active">Input</a>
             </li>
             <li>
               <a href="/Components/List/list.html" class="list-itm">List</a>
@@ -215,5 +295,6 @@
         </div>
       </div>
     </div>
+    <script src="/index.js"></script>
   </body>
 </html>

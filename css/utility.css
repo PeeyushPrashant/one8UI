@@ -1,6 +1,9 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+body {
+  margin-top: 0;
+}
 html {
   font-size: 62.5%;
 }

@@ -3,11 +3,15 @@
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem 2rem;
 }
 .navbar {
   align-items: center;
   width: 100%;
+  position: sticky;
+  height: 9rem;
+  top: 0;
+  background-color: white;
 }
 
 .document {
