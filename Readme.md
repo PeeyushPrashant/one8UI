@@ -35,3 +35,7 @@ To avail the styles for different components, just copy-paste the following line
  
 ## Demo
 
+
+https://user-images.githubusercontent.com/68290209/155203541-7cb92a66-1459-4b09-a018-016ed5222a8c.mp4
+
+
