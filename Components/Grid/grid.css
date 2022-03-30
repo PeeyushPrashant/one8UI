@@ -1,0 +1,17 @@
+.grid {
+  width: 90%;
+  display: grid;
+  background-color: var(--suc-alert-color);
+}
+.two-grid {
+  grid-template-columns: 1fr 1fr;
+}
+.three-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-item {
+  border: 1px solid black;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.3rem;
+}

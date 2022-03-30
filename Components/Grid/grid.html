@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/sidebar.css" />
     <link rel="stylesheet" href="/css/components.css" />
-    <title>one8Ui | Navigation</title>
+    <title>one8Ui | Grid</title>
   </head>
   <body>
     <div class="container">
@@ -73,6 +73,11 @@
                 <a href="/Components/Card/card.html" class="list-itm">Card</a>
               </li>
               <li>
+                <a href="/Components/Grid/grid.html" class="list-itm active"
+                  >Grid</a
+                >
+              </li>
+              <li>
                 <a href="/Components/Image/image.html" class="list-itm"
                   >Image</a
                 >
@@ -93,7 +98,7 @@
               <li>
                 <a
                   href="/Components/Navigation/navigation.html"
-                  class="list-itm active"
+                  class="list-itm"
                   >Navigation</a
                 >
               </li>
@@ -163,6 +168,9 @@
               <a href="/Components/Card/card.html" class="list-itm">Card</a>
             </li>
             <li>
+              <a href="" class="list-itm active">Grid</a>
+            </li>
+            <li>
               <a href="/Components/Image/image.html" class="list-itm">Image</a>
             </li>
             <li>
@@ -175,12 +183,12 @@
               <a href="/Components/Modal/modal.html" class="list-itm">Modal</a>
             </li>
             <li>
-              <a href="" class="list-itm active">Navigation</a>
+              <a href="/Components/Navigation/navigation.html" class="list-itm"
+                >Navigation</a
+              >
             </li>
             <li>
-              <a href="/Components/Toast/toast.html" class="list-itm active"
-                >Toast</a
-              >
+              <a href="/Components/Toast/toast.html" class="list-itm">Toast</a>
             </li>
             <li>
               <a href="/Components/Text-Utility/text.html" class="list-itm"
@@ -191,57 +199,45 @@
         </aside>
 
         <div class="doc-content flex-col">
-          <h1 class="content-title">Navigation</h1>
+          <h1 class="content-title">Grid</h1>
           <div class="content-subtitle">
-            Navigation is used to navigate between different pages.
+            The grid creates visual consistency between layouts while allowing
+            flexibility across a wide variety of designs.
           </div>
           <hr class="horizontal-line" />
 
-          <h3 class="content-title">Simple NavBar</h3>
+          <h3 class="content-title">Two column grid</h3>
           <div class="content-subtitle">
-            A navbar where user can easily navigate to pages like
-            <strong>Home</strong>, <strong>About</strong> &
-            <strong>Contact</strong>
+            Two column grid can be used by using the
+            <span class="highlight-text">two-grid</span> class. You can copy
+            html part from below code snippet.
           </div>
           <div class="example-div flex-col">
-            <nav class="nav flex-row">
-              <div class="lib-title">
-                <a href="/index.html"
-                  ><h2 class="left-nav">
-                    one8<span class="highlight-text">Ui</span>
-                  </h2></a
-                >
-              </div>
-              <div class="nav-link"><a>Home</a></div>
-              <div class="nav-link"><a>About</a></div>
-              <div class="nav-link"><a>Contact</a></div>
-            </nav>
+            <div class="grid two-grid">
+              <div class="grid-item">Grid-One</div>
+              <div class="grid-item">Grid-Two</div>
+            </div>
           </div>
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fsimple-Nav&style=vs2015&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fgrid-two&style=vs2015&showBorder=on&showCopy=on"></script>
           </div>
           <hr class="horizontal-line" />
 
-          <h3 class="content-title">NavBar with SearchBox</h3>
-
+          <h3 class="content-title">Three column grid</h3>
+          <div class="content-subtitle">
+            Three column grid can be used by using the
+            <span class="highlight-text">three-grid</span> class. You can copy
+            html part from below code snippet.
+          </div>
           <div class="example-div flex-col">
-            <nav class="nav flex-row">
-              <div class="lib-title">
-                <a href="/index.html"
-                  ><h2 class="left-nav">
-                    one8<span class="highlight-text">Ui</span>
-                  </h2></a
-                >
-              </div>
-              <div>
-                <input type="text" class="nav-search" placeholder="Search" />
-              </div>
-              <div class="nav-link"><a>Home</a></div>
-              <div class="nav-link"><a>About</a></div>
-            </nav>
+            <div class="grid three-grid">
+              <div class="grid-item">Grid-One</div>
+              <div class="grid-item">Grid-Two</div>
+              <div class="grid-item">Grid-Three</div>
+            </div>
           </div>
           <div class="code-snippet">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fsearch-Nav&style=vs2015&showBorder=on&showCopy=on"></script>
+            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPeeyushPrashant%2Fcode-snippet%2Fblob%2Fmain%2Fgrid-three&style=vs2015&showBorder=on&showCopy=on"></script>
           </div>
         </div>
       </div>
