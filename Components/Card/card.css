@@ -47,7 +47,9 @@ p {
 .sec-4 > h4 {
   color: var(--secondary);
 }
-
+.footer:hover {
+  cursor: pointer;
+}
 /* Card with badge*/
 
 .card-badge {

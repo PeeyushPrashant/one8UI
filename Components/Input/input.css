@@ -12,9 +12,11 @@ body {
   width: 55rem;
 }
 /* TextFeild*/
-
+.input-section {
+  width: 70%;
+}
 .textfeild {
-  width: 40rem;
+  width: 80%;
   height: 2.5rem;
   outline: none;
 }

@@ -11,7 +11,11 @@
   justify-content: center;
   width: 12rem;
 }
-
+.btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
 /* Normal Button*/
 .btn-primary {
   background-color: var(--primary);
@@ -37,7 +41,10 @@
   border: 1px solid var(--primary);
   color: var(--primary);
 }
-
+.btn-icon:hover {
+  background-color: var(--primary);
+  color: var(--font-color);
+}
 /*FLoating Action Button*/
 
 .btn-float {
@@ -53,4 +60,7 @@
   height: 4.5rem;
   justify-content: center;
   width: 4.7rem;
+}
+.btn-float:hover {
+  box-shadow: none;
 }
