@@ -27,6 +27,10 @@
   background-color: var(--disabled);
   cursor: not-allowed;
 }
+.btn-disabled:active {
+  transform: none;
+  box-shadow: none;
+}
 
 /*Link button*/
 .btn-link {
