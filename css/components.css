@@ -13,6 +13,7 @@
 @import url("/Components/Toast/toast.css");
 @import url("/Components/Grid/grid.css");
 @import url("/Components/Slider/slider.css");
+@import url("/Components/Rating/rating.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400&family=Ubuntu:wght@300;400&display=swap");
 
 :root {
@@ -105,7 +106,7 @@
   left: 0;
   height: 100%;
   width: 260px;
-  z-index: 20;
+  z-index: 19;
   background-color: white;
   overflow-x: hidden;
   display: flex;
