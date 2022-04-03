@@ -52,6 +52,8 @@
 
   /*Modal*/
   --grey-light: rgb(209, 204, 204);
+
+  --yellow-shade: #dabd18b2;
 }
 
 .doc-container {

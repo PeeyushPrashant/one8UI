@@ -1,6 +1,6 @@
 .rating-star {
   cursor: pointer;
-  color: #dabd18b2;
+  color: var(--yellow-shade);
   transition: filter linear 0.3s;
 }
 
