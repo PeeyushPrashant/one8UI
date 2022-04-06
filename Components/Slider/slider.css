@@ -1,5 +1,6 @@
 .slider {
   width: 50%;
+  cursor: pointer;
 }
 .slider-output {
   font-size: 1.6rem;

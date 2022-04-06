@@ -12,3 +12,6 @@
   background-color: var(--online);
   color: var(--font-color);
 }
+.toast-icon {
+  cursor: pointer;
+}
